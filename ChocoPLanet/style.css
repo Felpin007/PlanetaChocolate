@@ -26,6 +26,32 @@
     border-radius: 0px 0px 100px 100px;
     z-index: 0;
 }
+.categorys{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    top: 110px;
+    left: 100px;
+}
+.category{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+.categorz{
+    font-size: 1.3em;
+}
+
+button{
+    background-color: rgb(139, 226, 241);
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    border-radius: 25px;
+}
 
 .navbar-top h1{
     position: relative;
@@ -36,7 +62,14 @@
     font-size: 40px;
 }
 
-
+.pesquisar{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    width: 400px;
+    border-radius: 25px;
+    height: 30px;
+}
 
 .h1{
 
@@ -83,7 +116,28 @@
     width: 55%;
     height: 1600px;
   }
-  .grid-item {
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.informations {
+    margin-left: 7%;
+    font-size: 2em;
+    top: 370px;
+    position:absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+    gap: 30px 1200px;
+    width: 55%;
+    height: 1600px;
+  }
+.tiitle {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
